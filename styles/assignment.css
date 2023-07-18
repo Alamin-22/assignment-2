@@ -76,6 +76,49 @@ button a:hover{ color: rgb(59, 45, 77);}
 
 .play-like-goat-img-container > img{ width: 100%; height: 100%;}
 
+/* We are gamers section */
+
+.we-are-gamers-container{ /* border: 2px solid saddlebrown; */ display: flex; justify-content: space-evenly; padding: 50px 100px;align-items: center; background-color: #cecccd1a;}
+
+.we-are-gamer-image-container{ /* border: 2px solid black; */ width: 60%;}
+
+.we-are-gamer-image-container img{width: 100%;}
+
+.we-are-gamers-text-container{ /* border: 2px solid gray; */ width: 40%; text-align: right;}
+
+.we-are-gamers-title{
+font-size: 2.8rem;
+font-weight: 700;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin-bottom: 24px;
+}
+
+.we-are-gamers-description , .we-are-gamers-last-title{
+color: #534C64;
+font-size: 1.1rem;
+font-weight: 400;
+}
+.we-are-gamers-last-title{ margin-top: 24px;}
+#we-are-gamers-last-title{ font-weight: 700; color: #534C64; }
+
+
+
+
+
+
+
+
+
+/* we are gamers section end */
+
+
+/* online-games-funny video section */
+
+
+
 
 
 
@@ -103,13 +146,20 @@ button a:hover{ color: rgb(59, 45, 77);}
          flex-direction: column-reverse;
     }
     .play-like-goat-img-container, .play-goat-text-container { width: 85%; margin: auto;}
+
+    /* we are gamers section */
+
+    .we-are-gamers-container{ flex-direction: column;}
+    .we-are-gamer-image-container, .we-are-gamers-text-container{width: 170%; text-align: center;}
+    .we-are-gamer-image-container > img{width: 100%;}
+    .we-are-gamers-title{ font-size: 2rem;}
 }
 
 
 /* For Tab Devices */
 
 @media screen and (min-width: 577px ) and (max-width: 992px ) {
-    header{ margin: 30px 0px;}
+    header{ margin: 30px 0px; width: 100%;}
     .nav-container{ flex-direction: column; text-align: center;}  
     .nav-container ul{ margin: 20px auto;}
 
@@ -119,5 +169,11 @@ button a:hover{ color: rgb(59, 45, 77);}
         flex-direction: column-reverse;
    }
    .play-like-goat-img-container, .play-goat-text-container { width: 85%; height: 100% ; margin: auto;}
-    
+
+    /* we are gamers section */
+
+    .we-are-gamers-container{ flex-direction: column;}
+    .we-are-gamer-image-container, .we-are-gamers-text-container{width: 100%; text-align: center;}
+    .we-are-gamer-image-container > img{width: 100%;}
+    .we-are-gamers-title{ font-size: 2rem;}
 }
