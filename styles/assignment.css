@@ -97,7 +97,12 @@ button a:hover{ color: rgb(59, 45, 77);}
     .nav-container{ flex-direction: column; text-align: center;}  
     .nav-container ul{ flex-direction: column;}  
     .follow-us-container{ width: 90%;}
-    
+    /* banner Play like a Goat */
+
+    .play-like-a-goat{
+         flex-direction: column-reverse;
+    }
+    .play-like-goat-img-container, .play-goat-text-container { width: 85%; margin: auto;}
 }
 
 
@@ -107,5 +112,12 @@ button a:hover{ color: rgb(59, 45, 77);}
     header{ margin: 30px 0px;}
     .nav-container{ flex-direction: column; text-align: center;}  
     .nav-container ul{ margin: 20px auto;}
+
+    /* banner Play like a Goat */
+
+    .play-like-a-goat{
+        flex-direction: column-reverse;
+   }
+   .play-like-goat-img-container, .play-goat-text-container { width: 85%; height: 100% ; margin: auto;}
     
 }
