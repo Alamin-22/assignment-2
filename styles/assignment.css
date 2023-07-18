@@ -103,19 +103,39 @@ font-weight: 400;
 }
 .we-are-gamers-last-title{ margin-top: 24px;}
 #we-are-gamers-last-title{ font-weight: 700; color: #534C64; }
-
-
-
-
-
-
-
-
-
+/*  */
 /* we are gamers section end */
 
 
-/* online-games-funny video section */
+
+/* footer section */
+
+footer{ border: 2px solid red; background-color: #0B0223; padding: 80px;}
+#footer-heading{ display: flex; align-items: center; text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700; margin: 0 auto;}
+    .last, .last-a{color: white;}
+
+.footer-2nd-container{ display: grid; justify-content: center;}
+
+
+.footer-about-list, .footer-img-container{ margin: 0 auto; display: flex;}
+
+.footer-img-container{ justify-content: center; gap: 30px;}
+
+
+.footer-about-list li a:hover{color: rgba(249, 72, 178, 0.829);}
+
+.footer-finished{
+color: rgba(255, 255, 255, 0.60);
+font-size: 1rem;
+font-weight: 500;
+margin-left: 9px;
+}
+
+.final-touch{ color: rgba(255, 255, 255, 0.60); font-weight: 500; text-align: center;}
+
+
 
 
 
