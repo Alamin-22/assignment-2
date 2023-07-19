@@ -144,6 +144,27 @@ padding: 16px 25px;
     font-size: 1.1rem;
     font-weight: 500;}
 
+.darker-div{ position: relative; display: inline-block;}
+.button{
+    height: 330px; width: 245px;
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    opacity: 0.7;
+    border-radius: 12px;
+}
+.btn-play{
+    padding: 10px;
+font-size: 1.2rem;
+font-weight: 600;
+color: #ff0099;
+}
+
 
 
 
@@ -222,7 +243,12 @@ padding: 16px 25px;
     .we-are-gamer-image-container > img{width: 100%;}
     .we-are-gamers-title{ font-size: 2rem;}
 
-    
+    /* online Games section */
+
+    .online-games-img-container{
+        flex-direction: column; text-align: left;
+    }
+    .online-games-img-container>div{padding: 40px; margin: 0 auto;}
    
 
 
