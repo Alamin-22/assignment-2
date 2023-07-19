@@ -106,34 +106,50 @@ font-weight: 400;
 /*  */
 /* we are gamers section end */
 
+/* online games Funny Video   */
 
+.online-games-container{text-align: center; /* border: 2px solid red */; margin-top: 100px;}
 
-/* footer section */
-
-footer{ border: 2px solid red; background-color: #0B0223; padding: 80px;}
-#footer-heading{ display: flex; align-items: center; text-align: center;
-    font-size: 2.5rem;
-    font-weight: 700; margin: 0 auto;}
-    .last, .last-a{color: white;}
-
-.footer-2nd-container{ display: grid; justify-content: center;}
-
-
-.footer-about-list, .footer-img-container{ margin: 0 auto; display: flex;}
-
-.footer-img-container{ justify-content: center; gap: 30px;}
-
-
-.footer-about-list li a:hover{color: rgba(249, 72, 178, 0.829);}
-
-.footer-finished{
-color: rgba(255, 255, 255, 0.60);
-font-size: 1rem;
-font-weight: 500;
-margin-left: 9px;
+.online-games-title{
+color: #0B0223;
+font-size: 3rem;
+font-weight: 700;
 }
 
-.final-touch{ color: rgba(255, 255, 255, 0.60); font-weight: 500; text-align: center;}
+.online-games-title-style{
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 2.8rem;
+font-weight: 700;
+}
+
+.online-games-description{
+color: #534C64;
+text-align: center;
+font-size: 1.1rem;
+font-weight: 400;
+padding: 16px 25px;
+}
+
+.online-games-img-container>div{width: 250px; height: 370px; padding: 20px; /* border: 2px solid red; */ }
+.online-games-img-container >div>img{width: 100%;height: 90%;}
+
+
+.online-games-img-container{ display: flex; justify-content: center; padding: 20px;}
+
+.online-games-img-container>div>p{
+    color: #534C64;
+    font-size: 1.1rem;
+    font-weight: 500;}
+
+
+
+
+
+
+
 
 
 
@@ -170,9 +186,18 @@ margin-left: 9px;
     /* we are gamers section */
 
     .we-are-gamers-container{ flex-direction: column;}
-    .we-are-gamer-image-container, .we-are-gamers-text-container{width: 170%; text-align: center;}
+    .we-are-gamer-image-container, .we-are-gamers-text-container{width: 150%; text-align: center;}
     .we-are-gamer-image-container > img{width: 100%;}
     .we-are-gamers-title{ font-size: 2rem;}
+
+    /* Online-Games-section */
+
+    .online-games-img-container{
+        flex-direction: column; text-align: left;
+    }
+    .online-games-img-container>div{padding: 40px; margin: 0 auto;}
+    
+
 }
 
 
@@ -196,4 +221,10 @@ margin-left: 9px;
     .we-are-gamer-image-container, .we-are-gamers-text-container{width: 100%; text-align: center;}
     .we-are-gamer-image-container > img{width: 100%;}
     .we-are-gamers-title{ font-size: 2rem;}
+
+    
+   
+
+
+
 }
