@@ -168,7 +168,7 @@ color: #ff0099;
 
 /* play-instant section */
 
-.play-instant{ border: 2px solid gray; display: flex; align-items: center; justify-content: space-around; position: relative; height: 80vh; box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+.play-instant{ /* border: 2px solid gray; */ display: flex; align-items: center; justify-content: space-around; position: relative; height: 80vh; box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 
 .position{position: absolute; /* border: 2px solid yellowgreen; */ width: 140px; height: 200px;
@@ -186,7 +186,7 @@ color: #ff0099;
 
 /* Types OF games Section */
 
-.types-of-games{ border: 2px solid red; margin: 50px auto; padding: 10px; background-color: #9c9aa141; width: 90%;}
+.types-of-games{/*  border: 2px solid red; */ margin: 50px auto; padding: 10px; background-color: #9c9aa141; width: 90%;}
 
 
 .listing-1-container ul>li>a{display: flex; align-items: center;}
@@ -203,6 +203,29 @@ color: #ff0099;
 }
 
 .listing-1{ display: flex; flex-wrap: wrap; justify-content: center;}
+
+
+/* Footer Section  start*/
+
+.footer-listing-1 li>a{color: white;}
+
+.footer-listing-1 li>a:hover{color: #F948B2;}
+
+.footer-main-container{/*  border: 2px solid green; */  background-color: #0B0223;}
+
+.footer-style{color: #ff0099bd;}
+
+#footer-style{ color: #FFF;}
+
+#footer-logo{/* border: 2px solid goldenrod; */ width: 21%; margin: 0 auto; justify-content: center; } 
+
+/* .footer-listing-1-container{display: grid; justify-content: center;} */
+
+.footer-listing-1{/*  border: 2px solid rebeccapurple; */ text-align: center; 
+    display: flex; flex-wrap: wrap; justify-content: center; width: 60%; margin: 0 auto;
+}
+#policy li>a{color: rgba(255, 255, 255, 0.60);}
+#policy li>a:hover{color: #8758F1;}
 
 
 
@@ -273,6 +296,10 @@ color: #ff0099;
     /* Types of games section */
 
     .listing-1>li{padding: 4px; font-size: .8rem;}
+
+    /* footer section */
+
+    .footer-listing-1{ width: 90%;}
     
 
 }
@@ -319,8 +346,8 @@ color: #ff0099;
         }
         .play-instant-text-container{ text-align: center; width: 80%; margin-top: 60px;}
         
-   
-
+   /* footer section */
+   .footer-listing-1{ width: 70%;}
 
 
 }
