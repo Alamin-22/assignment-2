@@ -186,7 +186,7 @@ color: #ff0099;
 
 /* Types OF games Section */
 
-.types-of-games{/*  border: 2px solid red; */ margin: 50px auto; padding: 10px; background-color: #9c9aa141; width: 90%;}
+.types-of-games{/*  border: 2px solid red; */ margin: 50px auto; padding: 10px; background-color: #ebe9f141; width: 90%;}
 
 
 .listing-1-container ul>li>a{display: flex; align-items: center;}
@@ -211,7 +211,7 @@ color: #ff0099;
 
 .footer-listing-1 li>a:hover{color: #F948B2;}
 
-.footer-main-container{/*  border: 2px solid green; */  background-color: #0B0223;}
+.footer-main-container{/*  border: 2px solid green; */ padding: 50px 0px;  background-color: #0B0223;}
 
 .footer-style{color: #ff0099bd;}
 
