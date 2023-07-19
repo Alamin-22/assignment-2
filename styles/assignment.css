@@ -297,6 +297,10 @@ color: #ff0099;
 
     .listing-1>li{padding: 4px; font-size: .8rem;}
 
+    .listing-1>ul{ justify-content: space-between;}
+    .listing-1>li>a{text-align: left;}
+    .listing-1>li>a>img{width: 20%; height: 20%;}
+
     /* footer section */
 
     .footer-listing-1{ width: 90%;}
@@ -345,6 +349,10 @@ color: #ff0099;
         transform: translate(-50%, -50%)
         }
         .play-instant-text-container{ text-align: center; width: 80%; margin-top: 60px;}
+
+        /* types of games */
+        .listing-1>ul{ justify-content: center;}
+        .listing-1>li{padding: 8px;}
         
    /* footer section */
    .footer-listing-1{ width: 70%;}
